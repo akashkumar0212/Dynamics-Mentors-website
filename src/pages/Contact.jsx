@@ -170,7 +170,7 @@ export default function Contact() {
                   {[
                     { icon: FaLinkedin, url: "https://linkedin.com" },
                     { icon: FaTwitter, url: "https://twitter.com" },
-                    { icon: FaGithub, url: "https://github.com" }
+                    // { icon: FaGithub, url: "https://github.com" }
                   ].map((social, idx) => {
                     const Icon = social.icon;
                     return (
@@ -249,7 +249,7 @@ export default function Contact() {
                         required
                         value={formData.name}
                         onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                        placeholder="e.g. John Doe"
+                        placeholder="Enter your Name"
                         className="w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm text-slate-900 outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-50 transition-all"
                       />
                     </div>
@@ -261,7 +261,7 @@ export default function Contact() {
                         required
                         value={formData.email}
                         onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                        placeholder="john@company.com"
+                        placeholder="Enter your email"
                         className="w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm text-slate-900 outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-50 transition-all"
                       />
                     </div>
@@ -273,7 +273,7 @@ export default function Contact() {
                         required
                         value={formData.company}
                         onChange={(e) => setFormData({ ...formData, company: e.target.value })}
-                        placeholder="e.g. Canon Medical ANZ"
+                        placeholder="e.g. Canon Medical"
                         className="w-full rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm text-slate-900 outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-50 transition-all"
                       />
                     </div>
@@ -292,6 +292,7 @@ export default function Contact() {
                         <option>Power Apps & Automate</option>
                         <option>Power BI & Fabric</option>
                         <option>Azure Integration Services</option>
+                        <option>Others</option>
                       </select>
                     </div>
                   </div>

@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { 
-  Menu, X, ChevronDown, Cpu, Cloud, Database, BarChart3, HelpCircle, 
-  Compass, ArrowRight, Home, Users, Briefcase, FileText, Phone, 
+import {
+  Menu, X, ChevronDown, Cpu, Cloud, Database, BarChart3, HelpCircle,
+  Compass, ArrowRight, Home, Users, Briefcase, FileText, Phone,
   Building, Mail, ChevronRight, MessageSquare
 } from "lucide-react";
 import { cn } from "../lib/utils";
@@ -68,8 +68,8 @@ export default function Navbar() {
     <header
       className={cn(
         "fixed top-0 left-0 right-0 z-[9998] transition-all duration-300 w-full border-b",
-        scrolled 
-          ? "py-3 bg-white/95 backdrop-blur-xl border-slate-200/80 shadow-md" 
+        scrolled
+          ? "py-3 bg-white/95 backdrop-blur-xl border-slate-200/80 shadow-md"
           : "py-5 bg-transparent border-transparent"
       )}
     >
@@ -77,7 +77,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link to="/" className="flex items-center space-x-3 group">
           <div className="h-10 w-10 rounded-xl bg-white border border-slate-200/80 flex items-center justify-center p-1 shadow-sm transition-transform duration-300 group-hover:scale-105">
-            <img 
+            <img
               src={faviconLogo}
               alt="Dynamics Mentors Logo"
               className="h-full w-full object-contain"
@@ -108,7 +108,7 @@ export default function Navbar() {
           </a>
 
           {/* Solutions Dropdown */}
-          <div 
+          <div
             className="relative"
             onMouseEnter={() => setIsDropdownOpen(true)}
             onMouseLeave={() => setIsDropdownOpen(false)}
@@ -152,7 +152,7 @@ export default function Navbar() {
           </div>
 
           {/* Industries Dropdown */}
-          <div 
+          <div
             className="relative"
             onMouseEnter={() => setIsIndustriesOpen(true)}
             onMouseLeave={() => setIsIndustriesOpen(false)}
@@ -201,14 +201,19 @@ export default function Navbar() {
 
         {/* Right side Actions */}
         <div className="hidden xl:flex items-center space-x-4">
-          <Link 
-            to="/contact" 
-            className="flex items-center space-x-2 px-5 py-2.5 rounded-xl bg-slate-900 text-white font-bold text-sm shadow-md hover:bg-slate-800 hover:scale-[1.02] transition-all duration-305 shrink-0"
+          <Link
+            to="/contact"
+            className={cn(
+              "flex items-center space-x-2 px-5 py-2.5 rounded-xl bg-slate-900 text-white font-bold text-sm shadow-md hover:bg-slate-800 hover:scale-[1.02] transition-all duration-305 shrink-0",
+              location.pathname === "/contact" && "invisible"
+            )}
           >
             <span>Request Consultation</span>
             <ArrowRight className="h-4 w-4" />
           </Link>
         </div>
+
+
 
         {/* Mobile controls & Toggle */}
         <div className="flex items-center space-x-3 xl:hidden">
@@ -271,7 +276,7 @@ export default function Navbar() {
 
               {/* 2. Main content area (Scrollable) */}
               <div className="flex-grow overflow-y-auto p-6 space-y-8 bg-slate-50/30">
-                
+
                 {/* Brand Tagline Card */}
                 <div className="p-5 rounded-2xl bg-gradient-to-br from-blue-50 to-indigo-50 border border-blue-150/40 text-left">
                   <div className="text-xs font-bold text-blue-600 uppercase tracking-wider mb-1">Company Vision</div>
@@ -363,7 +368,7 @@ export default function Navbar() {
                   <div className="text-[10px] font-bold text-blue-600 uppercase tracking-wider">Need Dynamics 365 Experts?</div>
                   <p className="text-xs text-slate-500 mt-0.5">Reach out directly to speak with an architect.</p>
                 </div>
-                
+
                 <div className="grid grid-cols-2 gap-3">
                   <a
                     href="tel:+61403209633"

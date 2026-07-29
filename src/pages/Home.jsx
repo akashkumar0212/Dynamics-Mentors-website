@@ -104,7 +104,7 @@ const processTimeline = [
   { step: "01", name: "Strategic Discovery", desc: "Assessing legacy application setups, team workflows, and corporate goals." },
   { step: "02", name: "Custom Mapping", desc: "Detailing required system integrations, D365 configuration specs, and data mapping." },
   { step: "03", name: "Architecture Planning", desc: "Designing secure database migration pathways, API layouts, and Azure infrastructure." },
-  { step: "04", name: "Sandbox Sandbox Config", desc: "Configuring custom fields, testing logic triggers, and verifying data conversions." },
+  { step: "04", name: "Sandbox Configuration", desc: "Configuring custom fields, testing logic triggers, and verifying data conversions." },
   { step: "05", name: "Deployment & Go-Live", desc: "Executing secure cloud migrations with rigorous compliance verification and zero downtime." },
   { step: "06", name: "Mentorship & Hypercare", desc: "Conducting hands-on knowledge-transfer sessions for internal engineers and managers." }
 ];
