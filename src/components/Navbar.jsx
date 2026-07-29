@@ -87,7 +87,7 @@ export default function Navbar() {
             <span className="font-heading text-base font-extrabold tracking-tight text-slate-900 leading-none">
               DYNAMICS
             </span>
-            <span className="font-heading text-xs font-bold tracking-widest text-blue-600 mt-0.5 leading-none">
+            <span className="font-heading text-base font-extrabold tracking-tight text-slate-900 leading-none">
               MENTORS
             </span>
           </div>

@@ -29,7 +29,7 @@ export default function About() {
             className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight font-heading leading-tight text-slate-900"
           >
             Strategic Systems <br />
-            <span className="text-gradient">Mentors & Architects</span>
+            <span className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight font-heading leading-tight text-slate-900">Mentors & Architects</span>
           </motion.h1>
           
           <motion.p

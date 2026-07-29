@@ -73,7 +73,7 @@ export default function Contact() {
             className="text-4xl sm:text-5xl font-extrabold font-heading text-slate-900 tracking-tight leading-tight"
           >
             Connect With Our <br />
-            <span className="text-gradient">Solutions Architects</span>
+            <span className="text-4xl sm:text-5xl font-extrabold font-heading text-slate-900 tracking-tight leading-tight">Solutions Architects</span>
           </motion.h1>
 
           <motion.p

@@ -56,7 +56,7 @@ export default function CaseStudies() {
             className="text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight font-heading leading-tight"
           >
             Client Outcomes & <br />
-            <span className="text-gradient">Case Studies</span>
+            <span className="text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight font-heading leading-tight">Case Studies</span>
           </motion.h1>
 
           <motion.p

@@ -184,7 +184,7 @@ export default function Home() {
               className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight leading-[1.05] font-heading text-slate-900"
             >
               Maximize Business Value <br />
-              <span className="text-gradient">with Microsoft Dynamics 365</span>
+              <span className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight leading-[1.05] font-heading text-slate-900">with Microsoft Dynamics 365</span>
             </motion.h1>
 
             <motion.p 
@@ -240,18 +240,18 @@ export default function Home() {
               <div className="space-y-4 text-xs font-semibold">
                 <div className="p-3 bg-slate-50 border border-slate-100 rounded-xl flex items-center justify-between">
                   <div>
-                    <div className="text-slate-905 font-bold">D365 SCM scan API</div>
-                    <div className="text-[10px] text-slate-400">Warehouse picks latency reduced</div>
+                    <div className="text-slate-905 font-bold">GEMS ERP Sync</div>
+                    <div className="text-[10px] text-slate-400">Unified Compliance Platform</div>
                   </div>
-                  <span className="text-blue-600 font-bold">52% Latency Saved</span>
+                  <span className="text-blue-600 font-bold">Active - 94%</span>
                 </div>
 
                 <div className="p-3 bg-slate-50 border border-slate-100 rounded-xl flex items-center justify-between">
                   <div>
-                    <div className="text-slate-905 font-bold">Power BI dashboards</div>
-                    <div className="text-[10px] text-slate-400">Real-time analytical pipelines</div>
+                    <div className="text-slate-905 font-bold">Canon Scan API</div>
+                    <div className="text-[10px] text-slate-400">Advanced Barcode Tracking</div>
                   </div>
-                  <span className="text-emerald-600 font-bold">Live Data</span>
+                  <span className="text-emerald-600 font-bold">Ready</span>
                 </div>
               </div>
             </motion.div>
@@ -291,7 +291,7 @@ export default function Home() {
               <span className="text-xs font-bold uppercase text-blue-600 tracking-wider">About Dynamics Mentors</span>
               <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight font-heading text-slate-900 leading-tight">
                 Digital Business Transformation <br />
-                <span className="text-gradient">Through Expert Solutions</span>
+                <span className="text-3xl sm:text-4xl font-extrabold tracking-tight font-heading text-slate-900 leading-tight">Through Expert Solutions</span>
               </h2>
               <p className="text-base text-slate-500 leading-relaxed">
                 At Dynamics Mentors, we focus on helping businesses streamline operations, boost productivity, and drive digital transformation. We believe that real business transformation stems from more than just implementing technology; it requires continuous evolution driven by expert insights, tailored strategies, and industry-specific knowledge.
@@ -683,12 +683,12 @@ export default function Home() {
           Book Consultation Call
         </Link>
 
-        <Link
+        {/* <Link
           to="/about"
           className="px-8 py-4 rounded-xl border border-white/25 bg-white/10 text-white font-bold backdrop-blur-sm hover:bg-white/20 transition-all duration-300"
         >
           Meet the Mentors Team
-        </Link>
+        </Link> */}
 
       </div>
 
