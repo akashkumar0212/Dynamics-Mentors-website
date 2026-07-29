@@ -49,7 +49,7 @@ export default function Footer() {
               {[
                 { icon: FaLinkedin, url: "https://linkedin.com" },
                 { icon: FaTwitter, url: "https://twitter.com" },
-                { icon: FaGithub, url: "https://github.com" },
+                // { icon: FaGithub, url: "https://github.com" },
                 { icon: FaYoutube, url: "https://youtube.com" }
               ].map((social, idx) => {
                 const Icon = social.icon;
