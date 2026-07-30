@@ -152,7 +152,7 @@ export default function Navbar() {
           </div>
 
           {/* Industries Dropdown */}
-          <div
+          {/* <div
             className="relative"
             onMouseEnter={() => setIsIndustriesOpen(true)}
             onMouseLeave={() => setIsIndustriesOpen(false)}
@@ -184,7 +184,7 @@ export default function Navbar() {
                 </motion.div>
               )}
             </AnimatePresence>
-          </div>
+          </div> */}
 
           <Link to="/case-studies" className={cn("text-sm font-semibold transition-colors hover:text-blue-600", location.pathname === "/case-studies" ? "text-blue-600" : "text-slate-600")}>
             Case Studies
